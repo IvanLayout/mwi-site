@@ -1,0 +1,1317 @@
+@media (max-width: 479px)
+{
+    .cont
+    {
+        padding: 0 10px;
+    }
+
+    header .contact .tel a
+    {
+        display: block;
+
+        width: 20px;
+        height: 20px;
+
+        background: url(../images/ic_tel.svg) 0 0 no-repeat;
+    }
+
+    header .contact .tel a span
+    {
+        display: none;
+    }
+
+    header .logo img
+    {
+        max-width: 111px;
+    }
+
+    header .mob_menu_link
+    {
+        margin-left: 25px;
+    }
+
+    header .menu_abs .list > li > ul li
+    {
+        display: none;
+
+        width: 100%;
+    }
+
+    header .menu_abs .list > li + li
+    {
+        margin-top: 20px;
+    }
+
+    header .menu_abs .list.big
+    {
+        margin-top: 20px;
+    }
+
+    header .menu_abs .box_contact
+    {
+        margin-top: 20px;
+    }
+
+    header .menu_abs .mail
+    {
+        display: none;
+    }
+
+    header .menu_abs .tel
+    {
+        display: none;
+    }
+
+    header .menu_abs .leave_request
+    {
+        margin-top: 30px;
+    }
+
+    header .menu_abs .leave_request a
+    {
+        font-size: 13px;
+        line-height: 50px;
+
+        width: 100%;
+    }
+
+    header .menu_abs .social
+    {
+        justify-content: center;
+    }
+
+    header .menu_abs .adres
+    {
+        display: none;
+    }
+
+    header .menu_abs .line_flex
+    {
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+        border-bottom: none;
+    }
+
+
+    section .main_title
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    section .main_title .title_anime
+    {
+        font-size: 50px;
+        line-height: 50px;
+
+        margin-top: -25px;
+    }
+
+    section .box_title .main_title .title_anime
+    {
+        left: -2px;
+    }
+
+    section .main_title .title_anime span
+    {
+        height: 50px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .first_section .text
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .slider_text .slide
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .slider_text,
+    .slider_text.owl-loaded
+    {
+        width: calc(100% - 58px);
+    }
+
+    .first_section .more
+    {
+        width: 100%;
+    }
+
+    .first_section .more a
+    {
+        line-height: 50px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .first_section .download
+    {
+        margin: 20px auto 0;
+    }
+
+    .first_section .view_project a
+    {
+        width: 18px;
+        height: 41px;
+        padding: 0;
+
+        background: url(../images/ic_mouse.svg) 0 0 no-repeat;
+    }
+
+    .first_section .view_project a span
+    {
+        display: none;
+    }
+
+    .first_section .view_project a:after,
+    .first_section .view_project a:before
+    {
+        display: none;
+    }
+
+    .first_section .img_abs
+    {
+        top: -23px;
+
+        margin-left: -380px;
+
+        transform: scale(.5);
+    }
+
+
+    .projects
+    {
+        max-width: none;
+    }
+
+    .projects .project
+    {
+        height: 210px;
+    }
+
+    .projects .project .name
+    {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .projects .project .text
+    {
+        font-size: 11px;
+    }
+
+    .projects .project.tatoo .logo
+    {
+        right: 10px;
+
+        max-width: 220px;
+    }
+
+    .projects .project.zetta .logo
+    {
+        width: 230px;
+    }
+
+    .projects .project.sportMania .img1
+    {
+        bottom: -7px;
+    }
+
+    .projects .project .box
+    {
+        padding: 0 15px;
+    }
+
+    .projects .project.empireTattto .logo
+    {
+        top: 30px;
+        left: 10px;
+
+        width: 140px;
+    }
+
+    .projects .project.vinsent .sun
+    {
+        right: 24px;
+    }
+
+
+    .more_projects
+    {
+        margin-top: 35px;
+    }
+
+    .more_projects a
+    {
+        line-height: 50px;
+
+        padding: 0 60px 0 30px;
+    }
+
+    .more_projects a svg
+    {
+        right: 22px;
+    }
+
+    .slider_amenities .service .box
+    {
+        padding: 30px 20px 15px;
+    }
+
+    .slider_amenities .service .name
+    {
+        min-height: 50px;
+    }
+
+    .slider_amenities .service .name a
+    {
+        font-size: 20px;
+    }
+
+    .slider_amenities .service .text
+    {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .slider_amenities .service .box_btn
+    {
+        justify-content: space-between;
+    }
+
+    .slider_amenities .service .order,
+    .slider_amenities .service .more
+    {
+        width: calc(50% - 10px);
+        margin: 0;
+    }
+
+    .slider_amenities .service .order a,
+    .slider_amenities .service .more a
+    {
+        width: 100%;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .section_breadcrumbs
+    {
+        padding-top: 80px;
+    }
+
+    .breadcrumbs
+    {
+        margin-top: 25px;
+    }
+
+    section .title_page
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    section .title_page .title_anime
+    {
+        font-size: 42px;
+        line-height: 42px;
+
+        margin-top: -20px;
+    }
+
+    section .title_page .title_anime span
+    {
+        height: 42px;
+    }
+
+    body
+    {
+        font-size: 13px;
+    }
+
+
+    .text_block h1
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h2
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h4
+    {
+        font-size: 14px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block p
+    {
+        line-height: 24px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h5
+    {
+        font-size: 13px;
+        line-height: 24px;
+
+        margin-bottom: 18px;
+    }
+
+    .text_block img
+    {
+        margin-bottom: 24px;
+    }
+
+    .text_block ul
+    {
+        margin-bottom: 24px;
+    }
+
+    .text_block ul li
+    {
+        line-height: 24px;
+    }
+
+    .section_article .text_block ul li
+    {
+        padding-left: 20px;
+    }
+
+    .section_article .text_block ul li:before
+    {
+        top: 12px;
+        left: 0;
+    }
+
+    .text_block ol
+    {
+        margin-bottom: 24px;
+    }
+
+    .text_block ol li
+    {
+        line-height: 24px;
+    }
+
+    .text_block p.importantly
+    {
+        padding-left: 8px;
+    }
+
+    .about_text .img_abs
+    {
+        width: 257px;
+    }
+
+
+    .advantages
+    {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .advantages .grid .item
+    {
+        padding-top: 16px;
+        padding-left: 0;
+    }
+
+    .advantages .grid .item:before
+    {
+        top: 0;
+    }
+
+
+    section .inner_title
+    {
+        font-size: 22px;
+    }
+
+
+    .slider_amenitiesSmall .service .name a,
+    .amenitiesSmall .service .name a
+    {
+        font-size: 20px;
+    }
+
+    .slider_amenitiesSmall .service .text,
+    .amenitiesSmall .service .text
+    {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+
+    .section_link .link span,
+    .section_link a:hover .link span
+    {
+        padding-right: 85px;
+    }
+
+    .section_map .info_abs
+    {
+        left: 10px;
+
+        width: calc(100% - 20px);
+        height: auto;
+        margin-top: 0;
+
+        transform: translateY(-50%);
+    }
+
+
+    .contacts .requisite .box_flex .box
+    {
+        width: 100%;
+    }
+
+    .contacts .contact
+    {
+        margin-bottom: 30px;
+    }
+
+    .contacts .contact .text,
+    .contacts .contact .tel,
+    .contacts .contact .mail
+    {
+        font-size: 11px;
+    }
+
+    .form .file
+    {
+        display: none;
+    }
+
+
+    .amenities .service .number
+    {
+        font-size: 35px;
+    }
+
+    .amenities .service .icon
+    {
+        height: 50px;
+    }
+
+    .amenities .service .name
+    {
+        font-size: 20px;
+    }
+
+    .amenities .service .list li + li
+    {
+        margin-top: 10px;
+    }
+
+
+    .blog .tag
+    {
+        font-size: 11px;
+    }
+
+    .blog .name
+    {
+        font-size: 20px;
+    }
+
+    .blog .user .name_user
+    {
+        font-size: 11px;
+    }
+
+    .blog .date
+    {
+        font-size: 11px;
+    }
+
+
+    .section_subscribe .form_subscribe
+    {
+        padding: 20px;
+    }
+
+    .form_subscribe .input
+    {
+        width: 100%;
+
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .form_subscribe .btn
+    {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+
+    .form .line_flex.big
+    {
+        margin-left: 0;
+    }
+
+    .form .line_flex.big .line_form
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .line_check
+    {
+        margin-left: 0;
+    }
+
+    .line_check .checkbox
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .section_info .text_block h2
+    {
+        font-size: 20px;
+    }
+
+    .section_info .text_block
+    {
+        font-size: 11px;
+    }
+
+    .section_info .text_block p
+    {
+        line-height: 20px;
+    }
+
+    .slider_amenitiesPromotion .service .name a
+    {
+        font-size: 15px;
+    }
+
+    .slider_amenitiesPromotion .service .text
+    {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .slider_amenitiesPromotion .service .more a
+    {
+        width: 100%;
+    }
+
+
+    .inner_advantages .grid .item .name
+    {
+        font-size: 15px;
+    }
+
+    .inner_advantages .grid .item .text
+    {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+
+    .section_error .text
+    {
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    .blog_title .bg
+    {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .section_subscribeBig .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .section_subscribeBig .subTitle
+    {
+        font-size: 13px;
+    }
+
+    .section_subscribeBig .sector
+    {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .section_article .sector
+    {
+        padding: 15px;
+        padding-right: 15px;
+    }
+
+
+    .section_archive .title
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block ul li
+    {
+        margin-left: 30px;
+    }
+
+    .text_block ul li:before
+    {
+        left: -30px;
+    }
+
+
+    .info_adm .foto
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .info_adm .box
+    {
+        width: calc(100% - 100px);
+    }
+
+    .info_adm .text
+    {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+
+    .slider_designMob
+    {
+        max-width: 75%;
+    }
+
+
+    .slider_comment .slide .text_block
+    {
+        font-size: 11px;
+
+        padding: 15px;
+    }
+
+
+    .tabs li a .name
+    {
+        font-size: 9px;
+    }
+
+
+    .advantages2 .item .icon
+    {
+        max-width: 50px;
+    }
+
+    .advantages2 .item .name
+    {
+        font-size: 13px;
+        line-height: 20px;
+
+        width: calc(100% - 65px);;
+    }
+
+    .technical_task .title
+    {
+        font-size: 16px;
+
+        padding-top: 70px;
+    }
+
+    .technical_task .text
+    {
+        font-size: 13px;
+    }
+
+    .technical_task .text br
+    {
+        display: none;
+    }
+
+
+    .first_section .monitor
+    {
+        top: -10px;
+
+        margin-right: -100px;
+    }
+
+    .slider_designMob.owl-carousel .owl-nav .owl-prev,
+    .slider_designMob.owl-carousel .owl-nav .owl-next
+    {
+        top: -44px;
+    }
+
+
+    footer .adres
+    {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    footer .copy
+    {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    footer .copy a
+    {
+        font-size: 9px;
+    }
+
+    footer .logo img
+    {
+        max-width: 111px;
+    }
+
+    footer .leave_request a
+    {
+        font-size: 11px;
+        line-height: 40px;
+
+        padding: 0 22px;
+    }
+
+    footer .leave_request a:before
+    {
+        display: none;
+    }
+
+    footer .line_flex
+    {
+        margin-top: 30px;
+    }
+
+    footer .adres br
+    {
+        display: inline;
+    }
+
+
+    .form
+    {
+        margin-top: 20px;
+    }
+
+    .form .line_flex .line_form
+    {
+        width: 100%;
+    }
+
+    .form .box_btn .agree br
+    {
+        display: none;
+    }
+
+    .form .box_btn .submit,
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    section .title_green
+    {
+        font-size: 13px;
+        font-weight: 400;
+
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        padding: 4px 10px;
+    }
+
+    .grid_creating
+    {
+        margin-top: 0;
+    }
+
+    .creation_stage .item .number
+    {
+        font-size: 80px;
+        line-height: 70px;
+
+        width: 50px;
+    }
+
+    .creation_stage .item .box
+    {
+        width: calc(100% - 60px);
+    }
+
+
+    .slider_amenities .service .img
+    {
+        height: 230px;
+    }
+
+
+    .project_canMyself .logo
+    {
+        bottom: 30px;
+    }
+
+    .project_canMyself .logo img
+    {
+        width: 170px;
+    }
+
+
+    /* Новая страница цены */
+    .prices_info
+    {
+        padding: 50px 0;
+    }
+
+    .prices_info .title
+    {
+        font-size: 20px;
+    }
+
+    .prices_info .top .img img
+    {
+        max-width: 60%;
+    }
+
+
+    .section_example .bord
+    {
+        padding: 40px 0;
+    }
+
+    .logo_scroll
+    {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .logo_scroll .item
+    {
+        padding: 0 15px;
+    }
+
+
+    .section_prices
+    {
+        padding-top: 50px;
+    }
+
+    .prices
+    {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        padding: 30px 10px;
+    }
+
+    .prices .item .name
+    {
+        font-size: 18px;
+
+        padding-left: 30px;
+    }
+
+    .prices .item .name:before
+    {
+        top: 11px;
+
+        width: 16px;
+    }
+
+
+    .section_rest
+    {
+        padding: 50px 0;
+    }
+
+    .section_head
+    {
+        padding-bottom: 20px;
+    }
+
+    .rest .item
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .rest .item .name
+    {
+        font-size: 16px;
+    }
+
+    .rest .item .price
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+    /* End Новая страница цены */
+
+
+    /* Новые project  */
+    .project_tennis_pro_school:before
+    {
+        top: 3px;
+        left: 5px;
+
+        width: calc(100% - 10px);
+        height: calc(100% - 6px);
+    }
+
+    .project_tennis_pro_school .title
+    {
+        top: 20px;
+
+        font-size: 26px;
+
+        padding: 0px 15px;
+    }
+
+    .project_perspective .img1
+    {
+        margin-right: 75px;
+    }
+
+    .project_perspective .img2
+    {
+        margin-left: 75px;
+    }
+
+    .project_perspective .logo svg
+    {
+        width: 250px;
+    }
+    /* End Новые project  */
+
+
+
+    /* -------------------
+		20.04.2022
+	------------------- */
+    .project_torshere .img1
+    {
+        width: 250px;
+    }
+
+    .project_torshere .img2
+    {
+        width: 250px;
+    }
+    /* -------------------
+		End 20.04.2022
+	------------------- */
+
+
+
+    /* -------------------
+		29.04.2022
+	------------------- */
+    .project_sporPpoint .sporPpoint_img
+    {
+        padding: 30px 0 30px 45px;
+    }
+
+
+    .project_sporPpoint:before
+    {
+        top: 6px;
+        left: 6px;
+
+        width: calc(100% - 12px);
+        height: calc(100% - 12px);
+    }
+
+    .project_sporPpoint:after
+    {
+        top: 6px;
+        right: 6px;
+
+        width: calc(50% - 6px);
+        height: calc(100% - 12px);
+    }
+    /* -------------------
+		End 29.04.2022
+	------------------- */
+
+
+    /* -------------------
+		21.05.2022
+	------------------- */
+    .project_q-plant:hover .q-plant__rocket
+    {
+        transform: translateX(650%);
+    }
+    /* -------------------
+		End 21.05.2022
+	------------------- */
+
+
+
+    /* -------------------
+		19.10.2022
+	------------------- */
+    .service-price__wrap
+    {
+        margin-top: 14px;
+    }
+
+    .service-price table td
+    {
+        font-size: 12px;
+        line-height: 1.25;
+    }
+    /* -------------------
+		End 19.10.2022
+	------------------- */
+
+
+
+    /* -------------------
+		24.12.2022
+	------------------- */
+    .aryahome_logo
+    {
+        padding-left: 15px;
+    }
+
+    .aryahome_logo img
+    {
+        width: 180px;
+    }
+
+    .noble_logo img
+    {
+        width: 280px;
+    }
+
+    .kidshorizonts_img1
+    {
+        top: 30px;
+        left: 10px;
+
+        width: 50px;
+    }
+
+    .kidshorizonts_img4
+    {
+        right: 30px;
+    }
+    /* -------------------
+		End 24.12.2022
+	------------------- */
+
+
+
+    /* -------------------
+		17.01.2023
+	------------------- */
+    .ressfood_logo
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .ressfood_logo img
+    {
+        max-width: 130px;
+    }
+
+    .ressfood_wrapimg
+    {
+        right: 20px;
+    }
+
+    .project_ressfood:hover .ressfood_wrapimg
+    {
+        width: 190px;
+
+        border-radius: 95px;
+    }
+    /* -------------------
+		End 17.01.2023
+	------------------- */
+
+    /* -------------------
+		16.04.2023
+	------------------- */
+    .provance_logo
+    {
+        padding-bottom: 38%;
+    }
+
+    .images_provance
+    {
+        bottom: 34%;
+    }
+    /* -------------------
+		End 16.04.2023
+	------------------- */
+
+
+    /* -------------------
+		23.08.2023
+	------------------- */
+    .rbh_img1
+    {
+        right: 72px;
+
+        height: 100px;
+    }
+
+    .rbh_img2
+    {
+        right: 46px;
+
+        height: 100px;
+    }
+
+    .rbh_img3
+    {
+        right: 20px;
+
+        height: 100px;
+    }
+
+    .rbh_logo
+    {
+        padding-bottom: 0;
+    }
+
+    .rbh_logo img
+    {
+        width: 130px;
+    }
+
+
+    .maldivtravel_logo
+    {
+        padding-bottom: 20px;
+    }
+
+    .maldivtravel_sea
+    {
+        height: 70px;
+    }
+
+    .maldivtravel_boat
+    {
+        bottom: 15px;
+    }
+
+    .maldivtravel_boat img
+    {
+        width: 100px;
+    }
+
+
+    .vikont_images
+    {
+        width: 58.61%;
+        max-width: none;
+    }
+
+    .project_vikont:hover .vikont_logo
+    {
+        width: 40%;
+    }
+
+    .vikont_logo img
+    {
+        width: 130px;
+    }
+
+
+
+    /* -------------------
+		End 23.08.2023
+	------------------- */
+
+    /* -------------------
+		MWI slider
+	------------------- */
+    .mwi-slider
+    {
+        max-width: 72%;
+    }
+    /* -------------------
+		End MWI slider
+	------------------- */
+
+
+    /* -------------------
+		06.02.2024
+	------------------- */
+    .snowiness_img1
+    {
+        right: 5%;
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .snowiness_img3
+    {
+        top: 30%;
+        left: 4%;
+
+        width: 70px;
+        height: 70px;
+    }
+    /* -------------------
+		End 06.02.2024
+	------------------- */
+}
+
+/* -------------------
+	MWI slider
+------------------- */
+@media (max-width: 399px)
+{
+    .mwi-slider
+    {
+        max-width: 200px;
+    }
+}
+/* -------------------
+	End MWI slider
+------------------- */
