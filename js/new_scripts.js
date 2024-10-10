@@ -606,6 +606,14 @@ $(function(){
 		})
 	}
 	/* End 08.10.2024 */
+
+	/* 10.10.2024 */
+	$('.gallery-event__grid').masonry({
+		itemSelector: '.gallery-event__grid .gallery-event__item',
+		columnWidth: '.gallery-event__grid .grid-sizer',
+		percentPosition: true
+	})
+	/* End 10.10.2024 */
 });
 
 $(window).on('load', () => {
