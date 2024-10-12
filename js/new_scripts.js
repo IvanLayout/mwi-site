@@ -615,6 +615,9 @@ $(function(){
 			percentPosition: true
 		})
 	}
+
+	// Кастомный select
+	$('.select-wrap select').niceSelect()
 	/* End 10.10.2024 */
 });
 

@@ -215,8 +215,17 @@
 		</section>
 
 
-		<section class="video-interview sector_black">
+		<section class="video-interview sector_white">
 			<div class="cont">
+				<div class="select-wrap video-interview__select-wrap">
+					<select>
+						<option value="0" data-display="Сортировать по"></option>
+						<option value="1">По дате</option>
+						<option value="2">По новизне</option>
+						<option value="3">По популярности</option>
+					</select>
+				</div>
+
 				<div class="video-interview__grid _flex">
 					<div class="video-interview__item">
 						<div class="video-interview__video">
@@ -370,7 +379,7 @@
 		</section>
 
 
-		<section class="section-form sector_black">
+		<section class="section-form sector_white">
 			<div class="cont">
 				<div class="section-form__cols _flex">
 					<div class="section-form__coll">
@@ -388,7 +397,7 @@
 								<a href="mailto:saved@mwi.me">saved@mwi.me</a>
 							</div>
 
-							<div class="section-form__socials">
+							<div class="section-form__socials _flex">
 								<a href="/" class="section-form__socials-item">
 									<img data-src="images/event/ic_tg.svg" src="images/img_plug.png" alt="" class="lazyload">
 								</a>
@@ -400,7 +409,9 @@
 					</div>
 
 					<div class="section-form__colr">
-						<form action="" class="form-white">
+						<div class="section-form__title">Записаться на видео-<br>интервью с MWI</div>
+
+						<form action="" class="form-white section-form__form-white">
 							<div class="form-white__line">
 								<input type="text" name="" value="" placeholder="Ваше имя" class="form-white__input">
 							</div>
@@ -628,7 +639,10 @@
 	<script src="js/swiper-bundle.min.js"></script>
 	<!-- End Подключения плагина swiper.js -->
 
+	<!-- 10.10.2024 -->
 	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/nice-select.js"></script>
+	<!-- End 10.10.2024 -->
 
 	<script src="js/scripts.js"></script>
 
