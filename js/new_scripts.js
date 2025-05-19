@@ -619,6 +619,24 @@ $(function(){
 	// Кастомный select
 	$('.select-wrap select').niceSelect()
 	/* End 10.10.2024 */
+
+
+	// online stores
+	if ($('.online-stores__slider').length) {
+		new Swiper('.online-stores__slider', {
+			spaceBetween: 20,
+			slidesPerView: 1,
+			loop: true,
+			pagination: {
+				bulletActiveClass: 'slider-dot_active',
+				bulletClass: 'slider-dot',
+				clickableClass: 'slider-pagination-clickable',
+				el: '.slider-pagination',
+				clickable: true
+			}
+		})
+	}
+	// END online stores
 });
 
 $(window).on('load', () => {
