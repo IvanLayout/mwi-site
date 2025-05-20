@@ -627,6 +627,10 @@ $(function(){
 			spaceBetween: 20,
 			slidesPerView: 1,
 			loop: true,
+			autoplay: {
+				delay: 7000,
+				disableOnInteraction: false
+			},
 			pagination: {
 				bulletActiveClass: 'slider-dot_active',
 				bulletClass: 'slider-dot',
@@ -688,6 +692,24 @@ $(window).on('load', () => {
 		partnerEvent()
 	}
 	/* End 10.10.2024 */
+
+
+	// online stores
+	if ( $('.online-stores__info-number').length ){
+		let textSpan = $('.online-stores__info-number').find('span').text()
+
+		setTimeout( function() {
+			$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
+
+			textSpan = $('.online-stores__info-number').find('span').text()
+		}, 2000)
+
+		setTimeout( function() {
+			$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
+			$('.online-stores__info-number').addClass('_active')
+		}, 2600)
+	}
+	// END online stores
 });
 
 

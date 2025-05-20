@@ -9706,7 +9706,7 @@ header .cont._big .menu
 }
 
 .online-stores__info-number b{
-	display: none;
+	opacity: 0;
 	color: #33ad43;
 	font-weight: 400;
 }
