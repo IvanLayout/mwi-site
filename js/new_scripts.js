@@ -640,6 +640,15 @@ $(function(){
 			}
 		})
 	}
+
+	if ( $('.online-stores__info-number').length ){
+		if ( $(window).width() < 1024 ) {
+			let textSpan = $('.online-stores__info-number').find('span').text()
+
+			$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 2)
+			$('.online-stores__info-number').addClass('_active')
+		}
+	}
 	// END online stores
 });
 
@@ -696,18 +705,20 @@ $(window).on('load', () => {
 
 	// online stores
 	if ( $('.online-stores__info-number').length ){
-		let textSpan = $('.online-stores__info-number').find('span').text()
+		if ( $(window).width() > 1023 ) {
+			let textSpan = $('.online-stores__info-number').find('span').text()
 
-		setTimeout( function() {
-			$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
+			setTimeout( function() {
+				$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
 
-			textSpan = $('.online-stores__info-number').find('span').text()
-		}, 2000)
+				textSpan = $('.online-stores__info-number').find('span').text()
+			}, 2000)
 
-		setTimeout( function() {
-			$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
-			$('.online-stores__info-number').addClass('_active')
-		}, 2600)
+			setTimeout( function() {
+				$('.online-stores__info-number').find('span').text(parseInt(textSpan) + 1)
+				$('.online-stores__info-number').addClass('_active')
+			}, 2600)
+		}
 	}
 	// END online stores
 });
