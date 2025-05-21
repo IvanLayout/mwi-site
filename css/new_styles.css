@@ -9696,6 +9696,8 @@ header .cont._big .menu
 	top: 2px;
 	left: 0;
 	padding: 10px 0 0 46px;
+    display: block;
+    text-decoration: none;
 }
 
 .online-stores__info-number{
@@ -9703,6 +9705,7 @@ header .cont._big .menu
 	line-height: 1;
 	color: #fff;
 	white-space: nowrap;
+    display: block;
 }
 
 .online-stores__info-number b{
@@ -9720,6 +9723,7 @@ header .cont._big .menu
 	line-height: .5;
 	color: #fff;
 	white-space: nowrap;
+    display: block;
 }
 
 .online-stores__info-year{
@@ -9729,6 +9733,7 @@ header .cont._big .menu
 	white-space: nowrap;
 	padding-left: 96px;
 	margin-top: 14px;
+    display: block;
 }
 
 .online-stores .cont{
